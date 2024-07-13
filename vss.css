@@ -1,0 +1,81 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+		
+		h1{
+			text-shadow: 2px 2px black;			
+			color:yellow;
+		}
+		p{
+			color:black;
+		}
+		
+
+        header {
+            background-color: #0072c6; /* Xerox blue color */
+            color: white;
+			padding: 20px;
+            text-align: center;
+        }
+		
+        nav {
+            display: flex;
+			flex-direction:row;
+            justify-content: center;
+            background-color: #005580; /* Slightly darker blue for navigation */
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .hero-section {
+
+            /*background-image: url('xerox-hero-image.jpg'); /* Replace with an actual image URL */
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #e31c3d; /* Xerox red color */
+            color: #ffffff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .product-section {
+            text-align: center;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
